@@ -21,6 +21,10 @@ Route::patch('/account/info' , 'Account\InformationSettingsController@update')->
 Route::get('/account/security', 'Account\SecuritySettingsController@index')->name('account.security');
 Route::patch('account/security', 'Account\SecuritySettingsController@update')->name('account.security.update');
 
+// Policy routes
+Route::view('/privacy', 'policies/privacy')->name('privacy');
+Route::view('/terms-of-service', 'policies/terms-of-service')->name('terms');
+
 // Users Route
 Route::get('/users', 'Users\UsersController@index')->name('users.index');
 Route::get('/users/create', 'Users\UsersController@create')->name('users.create');

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\View\View;
+use App\Repositories\PetitionRepository;
+use App\Repositories\SignatureRepository;
 
 /**
  * Class HomeController 
@@ -11,14 +13,25 @@ use Illuminate\View\View;
  */
 class HomeController extends Controller
 {
+    /** @var \App\Repositories\PetitionRepository $petitionRepository */
+    private $petitionRepository;
+
+    /** @var \App\Repositories\SignatureRepository $signatureRepository */
+    private $signatureRepository;
+
     /**
      * Create a new controller instance.
      *
+     * @param  PetitionRepository  $petitionRepository  The class that holds all the needed petition logic.
+     * @param  SignatureRepository $signatureRepository The class that holds all the needed logic for the signatures and counter.
      * @return void
      */
-    public function __construct()
+    public function __construct(PetitionRepository $petitionRepository, SignatureRepository $signatureRepository)
     {
         $this->middleware(['auth', 'role:admin', 'forbid-banned-user'])->only(['index']);
+        
+        $this->petitionRepository  = $petitionRepository;
+        $this->signatureRepository = $signatureRepository; 
     }
 
     /**
@@ -28,7 +41,10 @@ class HomeController extends Controller
      */
     public function welcome(): View 
     {
-        return view('welcome');
+        $social  = $this->petitionRepository->getSocialLinks(); 
+        $counter = $this->signatureRepository->getCounterInformation(); 
+
+        return view('welcome', compact('social', 'counter'));
     }
 
     /**
