@@ -1,6 +1,18 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
 // Variables
-@import "_tabler/variables";
+@import "_frontend/variables";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-@import '_tabler/dashboard';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.card-alert {
+  border-radius: 0;
+  margin: -1px -1px 0;
+}
