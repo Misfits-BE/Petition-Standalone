@@ -29,7 +29,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command('ban:delete-expired')->everyMinute();
+        $schedule->command('ban:delete-expired')->everyMinute()->withoutOverlapping();
+        $schedule->command('queue:work --tries=3')->cron('* * * * * *')->withoutOverlapping();
     }
 
     /**
