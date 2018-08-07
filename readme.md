@@ -48,7 +48,7 @@ Available buils tasks are defined in `package.json`
 
 ### Customisation 
 
-* Moest of our project are in Dutch. You can change the language in `config/app.php`
+* Most of our project are in Dutch. You can change the language in `config/app.php`
 
 ## Colofon 
 
