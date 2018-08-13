@@ -261,7 +261,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="section-title">Teken of deel deze Petitie!</h2>
+                    <h2 class="section-title">Teken en deel deze Petitie!</h2>
                 </div>
             </div>
         </div>
