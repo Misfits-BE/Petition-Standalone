@@ -5,7 +5,9 @@
     <title>Activisme_BE | Kindereren sluit men niet op Theo Francken.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <mzta property="og:image" content="{{ asset('images/splash.jpg') }}">
+
+    <meta name="og:url" content="{{ config('app.name') }}">
+    <meta property="og:image" content="{{ asset('images/splash.jpg') }}">
     <meta property="og:description" content="Ik hoor in het nieuws dat U opnieuw zinnens bent om kinderen op te sluiten. U zal dat doen in zogeheten 'family units' in centrum 127b.
     En U voert daarmee een maatregel in, zo hoor ik, die tien jaar terug opgeheven was omwille van de kritiek van nationale en internationale organisaties begaan met
     mensenrechten en kinderrechten. De maatregel botst immers met een hele reeks bepalingen van verdragen die door ons land zijn ondertekend en geratificeerd." />
