@@ -113,10 +113,10 @@
             <div class="row content-padding padding-bottom-none">
                 <div class="col-sm-5 col-md-4 equal-height">
                     <div id="side">
-                        <a href="{{ asset('images/photo-02.jpg') }}" class="link-image" rel="lightbox" title="Syrisch kindje in vluchtelingenkamp"><img src="{{ asset('images/photo-02.jpg') }}" alt=""/></a>
+                        <a href="{{ asset('images/splash.jpg') }}" class="link-image" rel="lightbox" title="Centrum 127b"><img src="{{ asset('images/splash.jpg') }}" alt=""/></a>
                         <ul class="block-grid-2">
                             <li>
-                                <a href="{{ asset('images/photo-03.jpg') }}" class="link-image" rel="lightbox" title="Aleppo"><img src="{{ asset('images/photo-03.jpg') }}" alt=""/></a>
+                                <a href="{{ asset('images/photo-02.jpg') }}" class="link-image" rel="lightbox" title="Syrisch kindje in vluchtelingenkamp"><img src="{{ asset('images/photo-02.jpg') }}" alt=""/></a>
                             </li>
                             <li>
                                 <a href="{{ asset('images/photo-04.jpg') }}" class="link-image" rel="lightbox" title="Sta op voor syrie"><img src="{{ asset('images/photo-04.jpg') }}" alt=""/></a>
