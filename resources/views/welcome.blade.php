@@ -9,6 +9,8 @@
 
     <link href="images/favicon.ico" rel="icon" type="image/png">
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRoboto:400,300,500,700,900%7CCutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
@@ -54,7 +56,7 @@
 <article id="content">
     <section id="home" class="crossfade pb-pattern o-lines-light" data-crossfade-start="{{ asset('images/splash.jpg') }}" data-crossfade-end="{{ asset('images/splash.jpg') }}">
         <div id="splash" class="midway-horizontal midway-vertical midway animated">
-            <h1>Meneer de Staatssecretaris, Excellentie. <small>Lorem ipsum dolor sit amet, nec amet taciti</small></h1>
+            <h1>Meneer de Staatssecretaris, Excellentie. <small>Kinderen sluit je niet op in 127b.</small></h1>
             <a href="#petition" class="btn btn-primary btn-lg smooth-scroll hidden-xs">Steun deze petitie!</a>
         </div>
         <div id="counter" class="midway-horizontal midway animated">
@@ -126,10 +128,36 @@
                         Ieper, Belgie
                     </div>
 
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+                    <p class="lead">
+                        Ik hoor in het nieuws dat U opnieuw zinnens bent om kinderen op te sluiten. U zal dat doen in zogeheten 'family units' in centrum 127b.
+                        En U voert daarmee een maatregel in, zo hoor ik, die tien jaar terug opgeheven was omwille van de kritiek van nationale en internationale organisaties begaan met
+                        mensenrechten en kinderrechten. De maatregel botst immers met een hele reeks bepalingen van verdragen die door ons land zijn ondertekend en geratificeerd.
+                        We zijn terecht trots op het feit dat ons land door die ratificaties behoort tot de delen van de wereld waar mensen- en kinderrechten geen dode letter zijn.
+                    </p>
+
+                    <p>
+                        U voert die maatregel nu weer in. Meteen kreeg U tonnen kritiek van een hele reeks actoren, gaande van de UNHCR en de Raad van Europa tot de Orde van Vlaamse Balies.
+                        U wimpelde die kritiek snel af, hetzij door de critici als activisten af te doen die pleiten voor open grenzen,
+                        hetzij door te beweren dat alles wat U doet perfect in orde is met de wetten en gebruiken die ook elders in Europa gelden.
+                    </p>
+
+                    <p>
+                        Welnu, ik ben een gewone burger en ik pleit niet voor open grenzen. Niemand doet dat. Ik verzet me echter met klem tegen de maatregel waarbij kinderen nogmaals worden
+                        opgesloten in instellingen die in zowat elk opzicht identiek zijn aan gevangenissen, ook al noemt U ze 'family units'. Wanneer die maatregel tien jaar geleden al zeer
+                        zware kritiek te verduren kreeg, dan gelden die kritieken ook vandaag nog, en samen met zeer vele anderen deel ik die kritieken. In een land zoals Belgie sluiten
+                        wij geen kinderen op. Om Uw eigen woorden even te citeren, 'nu niet, nooit niet'.
+                    </p>
+
+                    <p>
+                        Ik begrijp dat U electoraal wil scoren met dit soort maatregelen. Elke politicus doet dat, en moet dat. Maar niet op de kap van kinderen. Het wordt de hoogste tijd dat
+                        Uw beleid zich terug plaatst waar het hoort: binnen het geheel van waarden en normen die wij als Westerse samenleving in mensen- en kinderrechtenverdragen hebben gegoten.
+                        Met deze maatregel geeft U nogmaals blijk van een groot misprijzen voor die grote waarden en normen. Ik pik dat niet meer.
+                    </p>
+
+                    <p>
+                        Hoogachtend, <br>
+                        Activisme_BE
+                    </p>
 
                     <h6>Ondersteun ons door deze petitie te delen:</h6>
 
@@ -161,11 +189,33 @@
             <div class="container">
                 <div class="row content-padding-xs">
                     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                        <p>Meneer de Staatssecretaris, Excellentie.</p>
+                        <p>Beste meneer de staatssecretaris,</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+                        <p>
+                            Ik hoor in het nieuws dat U opnieuw zinnens bent om kinderen op te sluiten. U zal dat doen in zogeheten 'family units' in centrum 127b.
+                            En U voert daarmee een maatregel in, zo hoor ik, die tien jaar terug opgeheven was omwille van de kritiek van nationale en internationale organisaties begaan met
+                            mensenrechten en kinderrechten. De maatregel botst immers met een hele reeks bepalingen van verdragen die door ons land zijn ondertekend en geratificeerd.
+                            We zijn terecht trots op het feit dat ons land door die ratificaties behoort tot de delen van de wereld waar mensen- en kinderrechten geen dode letter zijn.
+                        </p>
+
+                        <p>
+                            U voert die maatregel nu weer in. Meteen kreeg U tonnen kritiek van een hele reeks actoren, gaande van de UNHCR en de Raad van Europa tot de Orde van Vlaamse Balies.
+                            U wimpelde die kritiek snel af, hetzij door de critici als activisten af te doen die pleiten voor open grenzen,
+                            hetzij door te beweren dat alles wat U doet perfect in orde is met de wetten en gebruiken die ook elders in Europa gelden.
+                        </p>
+
+                        <p>
+                            Welnu, ik ben een gewone burger en ik pleit niet voor open grenzen. Niemand doet dat. Ik verzet me echter met klem tegen de maatregel waarbij kinderen nogmaals worden
+                            opgesloten in instellingen die in zowat elk opzicht identiek zijn aan gevangenissen, ook al noemt U ze 'family units'. Wanneer die maatregel tien jaar geleden al zeer
+                            zware kritiek te verduren kreeg, dan gelden die kritieken ook vandaag nog, en samen met zeer vele anderen deel ik die kritieken. In een land zoals Belgie sluiten
+                            wij geen kinderen op. Om Uw eigen woorden even te citeren, 'nu niet, nooit niet'.
+                        </p>
+
+                        <p>
+                            Ik begrijp dat U electoraal wil scoren met dit soort maatregelen. Elke politicus doet dat, en moet dat. Maar niet op de kap van kinderen. Het wordt de hoogste tijd dat
+                            Uw beleid zich terug plaatst waar het hoort: binnen het geheel van waarden en normen die wij als Westerse samenleving in mensen- en kinderrechtenverdragen hebben gegoten.
+                            Met deze maatregel geeft U nogmaals blijk van een groot misprijzen voor die grote waarden en normen. Ik pik dat niet meer.
+                        </p>
 
                         <p>Hoogachtend, [uw naam] wonend te, [wonende te]</p>
                     </div>
@@ -214,19 +264,21 @@
                     </ul>
                 </div>
                 <div class="col-sm-5 col-sm-offset-2 col-md-3 col-md-offset-2">
-                    <form id="signature" method="post" action="">
+                    <form id="signature" method="post" action="{{ route('signature.store') }}">
+                        @csrf {{-- Form field protection --}}
+
                         <div class="form-group">
-                            <input type="text" class="form-control" v-model="signature.name" name="name" value="" placeholder="Voor en Achternaam"/>
+                            <input type="text" class="form-control" name="name" value="" placeholder="Voor en Achternaam"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="email" v-model="signature.email" value="" placeholder="E-mail Adres"/>
+                            <input type="text" class="form-control" name="email"value="" placeholder="E-mail Adres"/>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" v-model="signature.city" name="city" placeholder="Woonplaats. bv. 2300, Turnhout" rows="3"></textarea>
+                            <textarea class="form-control" name="city" placeholder="Woonplaats. bv. 1000, Brussel" rows="3"></textarea>
                         </div>
 
                         <div v-if="! submitted">
-                            <button v-attr="disabled: errors" type="submit" class="btn btn-block btn-primary">Teken deze petitie!</button>
+                            <button type="submit" class="btn btn-block btn-primary">Teken deze petitie!</button>
                         </div>
                     </form>
                 </div>

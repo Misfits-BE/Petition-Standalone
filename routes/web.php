@@ -21,6 +21,9 @@ Route::patch('/account/info' , 'Account\InformationSettingsController@update')->
 Route::get('/account/security', 'Account\SecuritySettingsController@index')->name('account.security');
 Route::patch('account/security', 'Account\SecuritySettingsController@update')->name('account.security.update');
 
+// Petition Controller
+Route::post('/petitie/teken', 'Signature\SignatureController')->name('signature.store');
+
 // Policy routes - TODO Needs testing
 Route::view('/privacy', 'policies/privacy')->name('privacy');
 Route::view('/terms-of-service', 'policies/terms-of-service')->name('terms');
