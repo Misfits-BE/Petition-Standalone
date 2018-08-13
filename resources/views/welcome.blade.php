@@ -236,10 +236,19 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="timeline">
+                        <div class="entry sticky animated">
+                           <time datetime="2014-11-9">9 December, 2016</time>
+                           <div>
+                               <h5>Wij hebben de mijlpaal van 1.000 mails bereikt.</h5>
+                           </div>
+                       </div>
                         <div class="entry animated">
                             <time datetime="2016-11-7">6 Augustus, 2018</time>
                             <div>
-                                <h5>De petitie is gestart.</h5>
+                                Bij deze bedanken wij jullie deze actie te ondersteunen.
+                                Voor onze werking optimaal te laten werken, moeten wij als vzw rekenen op steungiften.
+                                Bij deze is het mogelijk ons te steunen op rekeningnr. : BE61 0689 0830 7017 Mededeling :
+                                gift Met vriendelijk groeten Activisme_be team
                             </div>
                         </div>
                     </div>
