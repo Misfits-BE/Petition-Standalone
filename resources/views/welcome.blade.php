@@ -20,7 +20,7 @@
     <link href="{{ asset('css/jquery.fs.wallpaper.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" media="screen" rel="stylesheet">
 
-    <script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "eff543fa-3d9c-49e1-a64e-cb4acbfb2ebe", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head>
 <body data-spy="scroll" data-target="#main-nav" data-offset="60" class="one-page">
