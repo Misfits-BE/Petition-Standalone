@@ -247,10 +247,9 @@
                         <div class="entry animated">
                             <time datetime="2018-08-06">12 Augustus, 2018</time>
                             <div>
-                                Bij deze bedanken wij jullie deze actie te ondersteunen.
-                                Voor onze werking optimaal te laten werken, moeten wij als vzw rekenen op steungiften.
-                                Bij deze is het mogelijk ons te steunen op rekeningnr. : BE61 0689 0830 7017 Mededeling :
-                                gift Met vriendelijk groeten Activisme_be team
+                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onze werking optimaal te laten werken, moeten wij als vzw rekenen op steungiften.</p>
+                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>BE61 0689 0830 7017</strong> Mededeling gift</p>
+                                <p>Met vriendelijk groeten Activisme_be team</p>
                             </div>
                         </div>
                     </div>
