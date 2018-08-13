@@ -5,7 +5,7 @@ return [
     /**
      * The amount of signatures we need to get an victory.
      */
-    'signatures-needed' => 2500,
+    'signatures-needed' => 100000,
 
     /**
      * Configuration for the petition.
