@@ -16,9 +16,6 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">stLight.options({publisher: "eff543fa-3d9c-49e1-a64e-cb4acbfb2ebe", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRoboto:400,300,500,700,900%7CCutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
