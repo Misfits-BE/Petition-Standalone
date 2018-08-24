@@ -30,7 +30,7 @@ class SignatureValidation extends FormRequest
     {
         return [
             'name' => 'string|required|max:190',
-            'email' => 'required|string|email|max:190|unique:signatures',
+            'email' => 'required|string|email|max:190|unique:users',
             'city' => 'string|required|max:190'
         ];
     }

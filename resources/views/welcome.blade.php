@@ -2,15 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Activisme_BE | Kinderen sluit men niet op Theo Francken.</title>
+    <title>Activisme_BE | Kindereren sluit men niet op Theo Francken.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <meta name="og:url" content="{{ config('app.name') }}">
-    <meta property="og:image" content="{{ asset('images/splash.jpg') }}">
-    <meta property="og:description" content="Ik hoor in het nieuws dat U opnieuw zinnens bent om kinderen op te sluiten. U zal dat doen in zogeheten 'family units' in centrum 127b.
-    En U voert daarmee een maatregel in, zo hoor ik, die tien jaar terug opgeheven was omwille van de kritiek van nationale en internationale organisaties begaan met
-    mensenrechten en kinderrechten. De maatregel botst immers met een hele reeks bepalingen van verdragen die door ons land zijn ondertekend en geratificeerd." />
+    <meta property="og:description" content="{ Social media text snippet}" />
 
     <link href="images/favicon.ico" rel="icon" type="image/png">
 
@@ -113,10 +108,10 @@
             <div class="row content-padding padding-bottom-none">
                 <div class="col-sm-5 col-md-4 equal-height">
                     <div id="side">
-                        <a href="{{ asset('images/splash.jpg') }}" class="link-image" rel="lightbox" title="Centrum 127b"><img src="{{ asset('images/splash.jpg') }}" alt=""/></a>
+                        <a href="{{ asset('images/photo-02.jpg') }}" class="link-image" rel="lightbox" title="Syrisch kindje in vluchtelingenkamp"><img src="{{ asset('images/photo-02.jpg') }}" alt=""/></a>
                         <ul class="block-grid-2">
                             <li>
-                                <a href="{{ asset('images/photo-02.jpg') }}" class="link-image" rel="lightbox" title="Syrisch kindje in vluchtelingenkamp"><img src="{{ asset('images/photo-02.jpg') }}" alt=""/></a>
+                                <a href="{{ asset('images/photo-03.jpg') }}" class="link-image" rel="lightbox" title="Aleppo"><img src="{{ asset('images/photo-03.jpg') }}" alt=""/></a>
                             </li>
                             <li>
                                 <a href="{{ asset('images/photo-04.jpg') }}" class="link-image" rel="lightbox" title="Sta op voor syrie"><img src="{{ asset('images/photo-04.jpg') }}" alt=""/></a>
@@ -238,12 +233,6 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="timeline">
-                        <div class="entry sticky animated">
-                           <time datetime="2018-08-13">13 Augustus, 2018</time>
-                           <div>
-                               <h5>De petitie is gestart.</h5>
-                           </div>
-                       </div>
                         <div class="entry animated">
                             <time datetime="2018-08-24">24 Aguustus, 2018</time>
                             <div>
@@ -260,11 +249,11 @@
                                <h5>De petitie is gestart.</h5>
                            </div>
                        </div>
-                       <div class="entry animated">
+                        <div class="entry animated">
                             <time datetime="2018-08-06">12 Augustus, 2018</time>
                             <div>
-                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onze werking optimaal te laten werken, moeten wij als vzw rekenen op steungiften.</p>
-                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>BE61 0689 0830 7017</strong> Mededeling gift</p>
+                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onz$
+                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>$
                                 <p>Met vriendelijk groeten Activisme_be team</p>
                             </div>
                         </div>
@@ -277,7 +266,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="section-title">Teken en deel deze Petitie!</h2>
+                    <h2 class="section-title">Teken of deel deze Petitie!</h2>
                 </div>
             </div>
         </div>

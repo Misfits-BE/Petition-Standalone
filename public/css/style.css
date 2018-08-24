@@ -926,7 +926,7 @@ cite {
 }
 
 #sign-row::after {
-    content: 'EN';
+    content: 'OF';
     display: block;
     width: 60px;
     height: 60px;
