@@ -239,7 +239,7 @@
                 <div class="col-sm-12">
                     <div id="timeline">
                         <div class="entry animated">
-                            <time datetime="2018-08-24">24 Augustus, 2018</time>
+                            <time datetime="2018-08-24">24 Aguustus, 2018</time>
                             <div>
                                 <p><a href="https://www.facebook.com/events/531118163983294/" target="_blank">Actie Kinderen sluit je niet op - nooit!</a></p>
                                 
