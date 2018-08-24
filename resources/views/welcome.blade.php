@@ -238,7 +238,7 @@
                         <div class="entry animated">
                             <time datetime="2018-08-24">24 Augustus, 2018</time>
                             <div>
-                                <h5><a href="https://www.facebook.com/events/531118163983294/" target="_blank">Actie Kinderen sluit je niet op - nooit!</a></h5>
+                                <p><a href="https://www.facebook.com/events/531118163983294/" target="_blank">Actie Kinderen sluit je niet op - nooit!</a></p>
                                 
                                 <p>
                                    Deze actie gaat door op 28 Augustus 2018 - van 18u30 tot 20u in het Baudelpark te Gent. 
