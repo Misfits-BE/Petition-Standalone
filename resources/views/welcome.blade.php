@@ -239,6 +239,14 @@
                                 <h5>De petitie is gestart.</h5>
                             </div>
                         </div>
+                        <div class="entry animated">
+                            <time datetime="2018-08-06">12 Augustus, 2018</time>
+                            <div>
+                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onz$
+                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>$
+                                <p>Met vriendelijk groeten Activisme_be team</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -248,7 +256,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="section-title">Teken of deel deze Petitie!</h2>
+                    <h2 class="section-title">Teken en deel deze Petitie!</h2>
                 </div>
             </div>
         </div>
@@ -277,7 +285,7 @@
                             <textarea class="form-control" name="city" placeholder="Woonplaats. bv. 1000, Brussel" rows="3"></textarea>
                         </div>
 
-                        <div v-if="! submitted">
+                        <div>
                             <button type="submit" class="btn btn-block btn-primary">Teken deze petitie!</button>
                         </div>
                     </form>
