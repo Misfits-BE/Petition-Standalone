@@ -238,6 +238,12 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="timeline">
+                        <div class="entry sticky animated">
+                           <time datetime="2018-08-13">13 Augustus, 2018</time>
+                           <div>
+                               <h5>De petitie is gestart.</h5>
+                           </div>
+                       </div>
                         <div class="entry animated">
                             <time datetime="2018-08-24">24 Aguustus, 2018</time>
                             <div>
