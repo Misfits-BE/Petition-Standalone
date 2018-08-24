@@ -22,6 +22,13 @@
 
     <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "eff543fa-3d9c-49e1-a64e-cb4acbfb2ebe", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+    <style>
+        body{
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target="#main-nav" data-offset="60" class="one-page">
 <header id="header" role="banner">
