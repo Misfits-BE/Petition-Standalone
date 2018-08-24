@@ -225,7 +225,7 @@
     </section>
     <section id="news" class="animated">
         <div class="container">
-            <div class="row content-padding-lg animated">
+            <div class="row content-padding-lg animated animated_off" style="display: block; opacity: 1; transform: translateY(0px);">
                 <div class="col-sm-12 text-center">
                     <h2 class="section-title">Nieuws &amp; Updates</h2>
                 </div>
@@ -233,17 +233,27 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="timeline">
-                        <div class="entry animated">
-                            <time datetime="2016-11-7">6 Augustus, 2018</time>
+                        <div class="entry animated animated_off" style="display: block; opacity: 1; transform: translateY(0px);">
+                            <time datetime="2018-08-24">24 Augustus, 2018</time>
+                            <div>
+                                <h5><a href="https://www.facebook.com/events/531118163983294/" target="_blank">Actie Kinderen sluit je niet op - nooit!</a></h5>
+
+                                <p>
+                                    Deze actie gaat door op 28 Augustus 2018 - van 18u30 tot 20u in het Baudelpark te Gent.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry sticky animated animated_off" style="display: block; opacity: 1; transform: translateY(0px);">
+                            <time datetime="2018-08-13">13 Augustus, 2018</time>
                             <div>
                                 <h5>De petitie is gestart.</h5>
                             </div>
                         </div>
-                        <div class="entry animated">
+                        <div class="entry animated animated_off" style="display: block; opacity: 1; transform: translateY(0px);">
                             <time datetime="2018-08-06">12 Augustus, 2018</time>
                             <div>
-                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onz$
-                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>$
+                                <p>Bij deze bedanken wij jullie deze actie te ondersteunen. Voor onze werking optimaal te laten werken, moeten wij als vzw rekenen op steungiften.</p>
+                                <p>Bij deze is het mogelijk ons te steunen op rekeningnr. : <strong>BE61 0689 0830 7017</strong> Mededeling gift</p>
                                 <p>Met vriendelijk groeten Activisme_be team</p>
                             </div>
                         </div>
